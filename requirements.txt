@@ -1,0 +1,50 @@
+# === LegalMind Sénégal — Requirements ===
+# Core RAG
+llama-index==0.10.57
+llama-index-vector-stores-chroma==0.1.10
+llama-index-embeddings-huggingface==0.2.3
+chromadb==0.5.3
+
+# Reranking cross-encoder
+cross-encoder>=0.1.0
+
+# Embeddings francophones
+sentence-transformers==3.0.1
+transformers==4.42.4
+torch==2.3.1
+
+# LLM
+anthropic==0.31.1
+
+# PDF & document processing
+pypdf2==3.0.1
+pdfplumber==0.11.1
+python-docx==1.1.2
+beautifulsoup4==4.12.3
+requests==2.32.3
+
+# Fine-tuning (préparation dataset)
+datasets==2.20.0
+peft==0.11.1
+trl==0.9.4
+bitsandbytes==0.43.1
+
+# API & Interface
+fastapi==0.111.1
+uvicorn==0.30.1
+streamlit==1.36.0
+python-dotenv==1.0.1
+
+# Évaluation RAG
+ragas==0.1.14
+pandas==2.2.2
+numpy==1.26.4
+
+# Utilitaires
+tqdm==4.66.4
+loguru==0.7.2
+pydantic==2.8.2
+httpx==0.27.0
+
+# WhatsApp
+twilio>=8.0.0
